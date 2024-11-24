@@ -3,6 +3,9 @@ body {
   background-color: #283149;
   background-image: url(./images/stage\ 1.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
 }
 
 h1 {
