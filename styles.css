@@ -101,10 +101,15 @@ footer {
   background-color: white;
 }
 
-@media only screen and (max-width: 767px) {
-  .m-show {
-      display: block !important;
-      max-height: none !important;
-      overflow: visible !important;
+@media(min-width: 390px) and (max-width:480px) {
+
+  body{
+    display: flex;
   }
+    
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }    
+    
 }
